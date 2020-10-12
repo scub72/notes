@@ -190,10 +190,8 @@ class DataModel:
         },
     }
 
-
     def python_types(self):
         print(self.python_types_array.keys().__len__())
-
 
 dm = DataModel().python_types()
 print(dm)
